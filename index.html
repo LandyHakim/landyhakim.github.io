@@ -9,6 +9,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
     <!--- Bootstrap icons-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <!-- animasi AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!----- MY CSS -->
     <link rel="stylesheet" href="style.css" />
 
@@ -45,7 +47,7 @@
     <section class="jumbotron text-center">
       <img src="img/la.jpg" alt="Muhammmad Landy Hakim" width="150" class="rounded-circle img-thumbnail" />
       <h1 class="display-4">Muhammad Landy Hakim</h1>
-      <p class="lead">Student | Graphic Designer</p>
+      <p class="lead"></p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffffff"
@@ -58,17 +60,17 @@
     <!---  -->
     <!----About-->
     <section id="about">
-      <div class="container">
+      <div class="container" data-aos="fade-down">
         <div class="row text-center mb-3">
           <div class="col">
             <h2>About Me</h2>
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-right">
             <p>Halo Perkenalkan Nama saya Muhammad Landy Hakim Lahir di Jakarta 20 Juni 2001, saya merupakan anak ke 3 dari 5 bersaudara. Pendidikan saat ini saya berkuliah di UIN Jakarta jurusan Teknik Informatika. selain itu hobi saya berolahraga seperti Basket, Badminton, dan juga Berenang.</p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
             <p>Webiste ini saya buat sebagai portfolio pribadi saya, yang didalamnya terdapat project project saya seperti desain, photography dan lain lain , saya harap dengan portfolio ini bisa membantu anda untuk mengenal saya lebih jauh seputar karir saya kedepannya.</p>
           </div>
         </div>
@@ -93,7 +95,7 @@
         </div>
         <div class="row justify-content-evenly">
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="zoom-in" data-aos-duration="500">
               <img src="img/projects/1.jpg" class="card-img-top" alt="projects1" />
               <div class="card-body">
                 <p class="card-text">Design diatas merupakan project personal yang saya bikin untuk tampilan website sebuah start up dibidang jasa kirim yang bernama reisend.</p>
@@ -101,7 +103,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="100">
               <img src="img/projects/2.jpg" class="card-img-top" alt="projects2" />
               <div class="card-body">
                 <p class="card-text">Design diatas merupakan sebuah poster yang saya buat untuk membuat sebuah konten podcast yang diadakan oleh HMI Komfastek untuk melaunching ke spotify dan instagram.</p>
@@ -109,7 +111,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="200">
               <img src="img/projects/3.jpg" class="card-img-top" alt="projects3" />
               <div class="card-body">
                 <p class="card-text">Desing diatas merupakan gambaran dari design produk yang saya buat sebagai project personal untuk sebuah obat farmasi.</p>
@@ -117,7 +119,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300">
               <img src="img/projects/4.jpg" class="card-img-top" alt="projects4" />
               <div class="card-body">
                 <p class="card-text">Design diatas saya buat untuk dalam rangka acara inaugurasi HMI Komfastek sebagai ketua divisi dekdok.</p>
@@ -125,7 +127,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="400">
               <img src="img/projects/5.jpg" class="card-img-top" alt="projects5" />
               <div class="card-body">
                 <p class="card-text">Poster diatas saya buat untuk sebuah ajakan untuk pembukaan acara turnamen Badminton.</p>
@@ -144,12 +146,81 @@
     </section>
 
     <!----Akhir project-->
+
+    <!---- Gallery Photo -->
+    <section id="gallery">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>My Gallery Photography</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/photo/1.jpg" alt="gambar 1" class="img-fluid gallery-img">
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/photo/2.jpg" alt="gambar 2" class="img-fluid gallery-img">
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/photo/3.jpg" alt="gambar 3" class="img-fluid gallery-img">
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/photo/4.jpg" alt="gambar 4" class="img-fluid gallery-img">
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/photo/5.jpg" alt="gambar 5" class="img-fluid gallery-img">
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/photo/6.jpg" alt="gambar 6" class="img-fluid gallery-img">
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/photo/7.jpg" alt="gambar 7" class="img-fluid gallery-img">
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/photo/8.jpg" alt="gambar 8" class="img-fluid gallery-img ">
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/photo/9.jpg" alt="gambar 9" class="img-fluid gallery-img ">
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/photo/10.jpg" alt="gambar 10" class="img-fluid gallery-img">
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <!---- Gallery Photo -->
     <!----Contact-->
     <section id="contact">
       <div class="container">
         <div class="row text-center mb-3">
           <div class="col">
-            <h2>My Contact</h2>
+            <h2>Contact Me</h2>
           </div>
         </div>
         <div class="row justify-content-center">
@@ -189,6 +260,27 @@
     <!----Akhir Footer-->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      const galleryImage = document.querySelectorAll('.gallery-img')
+
+      galleryImage.forEach((img, i) => {
+        img.dataset.aos = 'fade-down'
+        img.dataset.aosDelay = i * 100
+      })
+      AOS.init();
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/TextPlugin.min.js"></script>
+    <script>
+      gsap.registerPlugin(TextPlugin);
+      gsap.to('.lead', {duration : 2, delay : 1.5, text: 'Student | Graphic Designer'  })
+      gsap.from('.jumbotron img', {duration : 1, y: -100, opacity : 0 })
+      gsap.from('.navbar', {duration : 1.5, y : -100, opacity : 0, ease : 'slow'})
+      gsap.from('.display-4', {duration : 1, y : -50, opacity : 0, delay : 0.5, ease : 'back'})
+
+    </script>
+
     <script>
       const scriptURL = 'https://script.google.com/macros/s/AKfycbwCSQiuKZgA2F88c9hMsUziW2-CkN8Zatt5exywwOutkgHicJXgFiOxe9WG5fPf9C4U/exec'
       const form = document.forms['contact-form']
