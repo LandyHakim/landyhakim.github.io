@@ -44,7 +44,7 @@
     <!--- Jumbotron -->
     <section class="jumbotron text-center">
       <img src="img/la.jpg" alt="Muhammmad Landy Hakim" width="150" class="rounded-circle img-thumbnail" />
-      <h1 class="display-4">Muhammmad Landy Hakim</h1>
+      <h1 class="display-4">Muhammad Landy Hakim</h1>
       <p class="lead">Student | Graphic Designer</p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
@@ -66,10 +66,10 @@
         </div>
         <div class="row justify-content-center fs-5 text-center">
           <div class="col-md-4">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum explicabo dolorum nemo praesentium, facilis placeat eveniet aliquam totam veritatis incidunt?</p>
+            <p>Halo Perkenalkan Nama saya Muhammad Landy Hakim Lahir di Jakarta 20 Juni 2001, saya merupakan anak ke 3 dari 5 bersaudara. Pendidikan saat ini saya berkuliah di UIN Jakarta jurusan Teknik Informatika. selain itu hobi saya berolahraga seperti Basket, Badminton, dan juga Berenang.</p>
           </div>
           <div class="col-md-4">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur corrupti, sequi veniam necessitatibus quis assumenda tempore aliquam deleniti fugiat delectus eum totam illum, libero quibusdam.h</p>
+            <p>Webiste ini saya buat sebagai portfolio pribadi saya, yang didalamnya terdapat project project saya seperti desain, photography dan lain lain , saya harap dengan portfolio ini bisa membantu anda untuk mengenal saya lebih jauh seputar karir saya kedepannya.</p>
           </div>
         </div>
       </div>
@@ -96,7 +96,7 @@
             <div class="card">
               <img src="img/projects/1.jpg" class="card-img-top" alt="projects1" />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Design diatas merupakan project personal yang saya bikin untuk tampilan website sebuah start up dibidang jasa kirim yang bernama reisend.</p>
               </div>
             </div>
           </div>
@@ -104,7 +104,7 @@
             <div class="card">
               <img src="img/projects/2.jpg" class="card-img-top" alt="projects2" />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Design diatas merupakan sebuah poster yang saya buat untuk membuat sebuah konten podcast yang diadakan oleh HMI Komfastek untuk melaunching ke spotify dan instagram.</p>
               </div>
             </div>
           </div>
@@ -112,7 +112,7 @@
             <div class="card">
               <img src="img/projects/3.jpg" class="card-img-top" alt="projects3" />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Desing diatas merupakan gambaran dari design produk yang saya buat sebagai project personal untuk sebuah obat farmasi.</p>
               </div>
             </div>
           </div>
@@ -120,7 +120,7 @@
             <div class="card">
               <img src="img/projects/4.jpg" class="card-img-top" alt="projects4" />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Design diatas saya buat untuk dalam rangka acara inaugurasi HMI Komfastek sebagai ketua divisi dekdok.</p>
               </div>
             </div>
           </div>
@@ -128,7 +128,7 @@
             <div class="card">
               <img src="img/projects/5.jpg" class="card-img-top" alt="projects5" />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Poster diatas saya buat untuk sebuah ajakan untuk pembukaan acara turnamen Badminton.</p>
               </div>
             </div>
           </div>
@@ -154,19 +154,27 @@
         </div>
         <div class="row justify-content-center">
           <div class="col-md-6">
-            <form>
+            <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
+              <strong>Terimakasih!</strong> Pesan anda sudah terkirim!
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            <form name="contact-form">
               <div class="mb-3">
                 <label for="name" class="form-label">Nama Lengkap</label>
-                <input type="text" class="form-control" id="name" aria-describedby="name" />
+                <input type="text" class="form-control" id="name" aria-describedby="name" name="nama" />
               <div class="mb-3">
                 <label for="Email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="Email" aria-describedby="Email" />
+                <input type="email" class="form-control" id="Email" aria-describedby="Email" name="email" />
                 </div>
                 <div class="mb-3">
                   <label for="pesan" class="form-label">Pesan</label>
-                  <textarea class="form-control" id="pesan" rows="3"></textarea>
+                  <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
                 </div>
-              <button type="submit" class="btn btn-success">Kirim</button>
+              <button type="submit" class="btn btn-primary btn-kirim">Kirim</button>
+              <button class="btn btn-primary btn-loading d-none" type="button" disabled>
+                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                Loading...
+              </button>
             </form>
           </div>
         </div>
@@ -181,5 +189,35 @@
     <!----Akhir Footer-->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbwCSQiuKZgA2F88c9hMsUziW2-CkN8Zatt5exywwOutkgHicJXgFiOxe9WG5fPf9C4U/exec'
+      const form = document.forms['contact-form']
+      const btnKirim = document.querySelector('.btn-kirim')
+      const btnLoading = document.querySelector('.btn-loading')
+      const myAlert = document.querySelector('.my-alert')
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        // ketika tombol submit di klik // 
+        //tampilkan tombol loading hilangkan tombol kirim //
+        btnLoading.classList.toggle('d-none')
+        btnKirim.classList.toggle('d-none')
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+            // tampilkan tombol kirim , hilangkan tombol loading//
+
+            btnLoading.classList.toggle('d-none')
+            btnKirim.classList.toggle('d-none')
+            //tampilkan alert//
+            myAlert.classList.toggle('d-none')
+            //formnya ilang//
+            form.reset()
+
+            console.log('Success!', response)
+            
+            })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
   </body>
 </html>
